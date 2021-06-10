@@ -37,6 +37,10 @@ function getInputValue() {
             let div2 = document.getElementById("temp2")
             let div3 = document.getElementById("temp3")
         })
+        .catch(error => {
+            document.getElementById("error").innerHTML = "City name not found. Please try again!";
+            console.log(" error! try again")
+        })
         
     function displayEvents(eventsArr) {
         var location = document.getElementById("temp")
@@ -51,6 +55,7 @@ function getInputValue() {
             <div class="card-footer bg-dark border-success"><a href="${element.events4}" class="btn btn-dark" style="background-color: dark">Buy Tickets</a></div>
             </div>`
         });
+
         
         location.innerHTML = innerHtmlString;
     }
