@@ -38,7 +38,7 @@ function getInputValue() {
             let div3 = document.getElementById("temp3")
         })
         .catch(error => {
-            document.getElementById("error").innerHTML = "City name not found. Please try again!";
+            document.getElementById("error").innerHTML = "Performer not found. Please try again!";
             console.log(" error! try again")
         })
         
