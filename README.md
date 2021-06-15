@@ -58,7 +58,7 @@ MVP (Minimum Viable Product):
 Stretch Goals Future:
 - Implement a search function based on map/geo location
 - Add reset function after each search result
-- Link random AIP call results into the home page images
+- Link random API call results into the home page images
 
 
 Challenge:
